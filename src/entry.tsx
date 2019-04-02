@@ -3,6 +3,6 @@ import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 
 ReactDOM.render(
-    <Hello/>,
-    document.body
+  <Hello prop1='hello' prop2='react'/>,
+  document.body
 )
